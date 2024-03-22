@@ -13,3 +13,18 @@ def main():
     readAll()
     
 main()
+
+#THE TXT IS NOW A READ BY LINE 
+def lineline():
+    file = open('Testtx.txt', 'r')
+    
+    line = file.readline()
+    print(line)
+    
+    file.close()
+    
+    
+def main2():
+    lineline()
+
+main2()
