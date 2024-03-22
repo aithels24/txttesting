@@ -28,3 +28,20 @@ def main2():
     lineline()
 
 main2()
+
+# READS THE LINES WHICH GET TURNED INTO ITEMS/NUMBERS
+def listread():
+    file = open('Testtx.txt', 'r')
+    
+    wordlist = file.readlines()
+    print(wordlist)
+    
+    wordpick = (wordlist[1])
+    print("The line it picked out", wordpick)
+    
+    file.close()
+    
+def main3():
+    listread()
+    
+main3()
